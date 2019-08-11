@@ -1,0 +1,30 @@
+---
+parser: babel-eslint
+parserOptions:
+  ecmaFeatures:
+    legacyDecorators: true
+extends: react-app
+plugins:
+  - react-hooks
+  - emotion
+  - babel
+rules:
+  import/order: warn
+  babel/no-invalid-this: error
+  no-invalid-this: 'off'
+  babel/no-unused-expressions:
+    - warn
+    - allowTernary: true
+      allowShortCircuit: true
+  no-unused-expressions: 'off'
+  react/react-in-jsx-scope: error
+  react-hooks/rules-of-hooks: warn
+  emotion/jsx-import: 'off'
+  emotion/no-vanilla: error
+  emotion/import-from-emotion: error
+  emotion/styled-import: error
+globals:
+  ga: false
+  fbq: false
+  FB: false
+  location: false

@@ -1,0 +1,39 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "one",
+      "children": []
+    },
+    {
+      "name": "two",
+      "children": []
+    },
+    {
+      "name": "three",
+      "children": [
+        {
+          "name": "three-one",
+          "children": []
+        },
+        {
+          "name": "three-two",
+          "children": [
+            {
+              "name": "four-one",
+              "children": []
+            },
+            {
+              "name": "four-two",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "three-three",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
